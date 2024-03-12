@@ -401,6 +401,63 @@
   
   </div>
   </footer>
+
+  <div class="backdrop is-open"> 
+    <div class="modal">
+      <button class="modal-close-btn" type="button">
+      <svg class="modal-close-btn-icon" width="8" height="8" aria-label="close icon"> 
+        <use href="./images/icons.svg#icon-closesvg"></use>
+      </svg>
+      </button>
+
+      <p class="leave-contacts">Leave your contacts and we will call you back</p>
+      <form class="leave-contacts-form">
+        <div class="leave-contacts-form-wrapper">
+        <label for="user-name" class="contacts-form-label">Name</label>
+        <input type="text" class="contacts-form-input" name="user-name" id="user-name"
+         pattern="[a-zA-Za-яА-ЯіІїЇєЄґҐ']"
+         title="Oleksii"
+         required>
+        </div>
+
+        <div class="leave-contacts-form-wrapper">
+          <label for="user-phone" class="contacts-form-label">Phone</label>
+          <input type="tel" class="contacts-form-input" name="user-phone" id="user-phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          required>
+        </div>
+
+        <div class="leave-contacts-form-wrapper">
+          <label for="user-email" class="contacts-form-label">Email</label>
+          <input type="email" class="contacts-form-input" name="user-email" id="user-email"
+          required>
+        </div>
+
+        <div class="leave-contacts-form-wrapper">
+          <label for="user-comment" class="contacts-form-label">Comment</label>
+          <textarea class="leave-contacts-message" name="user-comment" id="user-comment"
+          placeholder="Text input"
+          required></textarea>
+        </div>
+
+        <div class="leave-contacts-checkbox-wrapper">
+          <input type="checkbox" class="contacts-form-privasi-checkbox" name="privacy-policy"
+          id="privacy-policy" 
+          value="true"
+          required>
+          <label for="privacy-policy" class="contacts-form-checkbox-label">I accept the terms and conditions of the 
+            <a class="privacy-policy-linc" href="">Privacy Policy</a></label>
+
+          <button class="contacts-submit-btn" type="submit">Send</button>
+
+
+        </div>
+
+      </form>
+    </div>
+
+  </div>
 </body>
 
   

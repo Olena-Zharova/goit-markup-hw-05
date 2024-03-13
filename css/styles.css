@@ -696,6 +696,9 @@ outline: transparent;
 
 }
 
+.leave-contacts-form-wrapper{
+        margin-bottom: 8px;
+}
 .contacts-form-input{
                 border: 1px solid rgba(46, 47, 66, 0.4);
                 border-radius: 4px;
@@ -721,8 +724,8 @@ outline: transparent;
         letter-spacing: 0.04em;
         color: #8e8f99;
 }
-.leave-contacts-form-wrapper{
-        margin-bottom: 8px;
+.leave-contacts-form-wrapper-texterea{
+        margin-bottom: 16px;
 }
 
 .leave-contacts-input-wrapper{

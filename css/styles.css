@@ -779,7 +779,7 @@ outline: transparent;
                 color: #8e8f99;
         
 }
- .leave-contacts-own-checkbox{
+  .leave-contacts-own-checkbox{ 
         display: inline-flex;
         justify-content: center;
         align-items: center;
